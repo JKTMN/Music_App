@@ -60,6 +60,9 @@ Return to the terminal where the java application is running and paste the autho
 
 The Java application will exchange the authorization code for an access token via the Python server, fetch your recently played tracks from Spotify's API, and save them to a `listeningHistory.json` file in the project directory.
 
+**7. Extract Recent Track IDS**
+THe jave application will extract the track ids for each song stored in `listeningHistory.json` and dump them into the new `recentTrackIds.json` file.
+
 
 ## Features
 
